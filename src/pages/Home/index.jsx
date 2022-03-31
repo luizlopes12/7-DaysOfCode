@@ -1,8 +1,13 @@
 import React from 'react'
-
+import Header from '../../components/Header'
+import Newsletter from '../../components/Newsletter'
+import { HomeStyle } from  './styled'
 const Home = () => {
   return (
-    <div>Home</div>
+      <HomeStyle>
+      <Header/>
+      <Newsletter/>
+      </HomeStyle>
   )
 }
 
