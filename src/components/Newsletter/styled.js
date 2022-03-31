@@ -4,7 +4,7 @@ export const NewsStyle = styled.form`
     width: 570px;
     height: 60px;
     display: flex;
-    box-shadow: 8px 8px 33px 1px rgba(189,189,189,0.32);
+    box-shadow: 8px 8px 33px 1px rgba(189,189,189,0.25);
     label{
         display: flex;
         align-items: center;
